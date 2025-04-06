@@ -3,7 +3,6 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<script src="main.js"></script>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="Catslap: Where Memetic Evolution and Digital Autonomy Collide. Explore the chaotic world of DeFi, Web3, and blockchain through the paw of a digital beast." name="description"/>
 <meta content="digital autonomy, freedom to swap, defi, autonomous finance design, web3, blockchain, chaos meets creation, decentralized fun, catslap" name="keywords"/>
@@ -175,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 </head>
-<body hidden style="display: flex; flex-direction: column; min-height: 100vh;">
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
 <div style="flex: 1;">
 <header>
 <header class="py-3 bg-gradient-neon">
@@ -308,169 +307,101 @@ document.addEventListener('DOMContentLoaded', (event) => {
 </header>
 <div class="container-fluid py-5" style="background: linear-gradient(45deg, #00ffff, #ff00ff, #ffff00);">
 <div class="row">
-<div class="col-md-8 offset-md-2">
-<h1 class="display-1 text-center mb-4" style="font-family: 'Comic Sans MS', cursive; color: #ff00ff; text-shadow: 3px 3px 0 #00ffff, -3px -3px 0 #ffff00;">
-                Welcome to CatSlap! 🐱👋
-            </h1>
-<p class="lead text-center mb-5" style="font-family: 'Press Start 2P', cursive; color: #ffffff; text-shadow: 2px 2px 4px #000000;">
-                Where Chaos Meets Creation in the Paw of a Digital Beast
-            </p>
-<div class="card p-4" style="background: rgba(0,0,0,0.7); border-radius: 20px; border: 3px solid #00ffff;">
-<p class="mb-4" style="font-family: 'Roboto', sans-serif; color: #ffffff; font-size: 1.2rem;">
-                    🚀 Dive into the wild world of <span style="color: #ffff00;">CatSlap</span>, where memes evolve, blockchain purrs, and decentralized fun reigns supreme! We're not just another crypto blog – we're a digital playground where the laws of physics (and common sense) don't apply.
-                </p>
-<p class="mb-4" style="font-family: 'Roboto', sans-serif; color: #ffffff; font-size: 1.2rem;">
-                    🎭 Here, you'll find the perfect blend of <span style="color: #ff00ff;">absurdist humor</span> and <span style="color: #00ffff;">cutting-edge tech insights</span>. From DeFi deep-dives to Web3 wackiness, we've got it all – served with a side of catnip.
-                </p>
-<p class="mb-0" style="font-family: 'Roboto', sans-serif; color: #ffffff; font-size: 1.2rem;">
-                    🌈 Join us as we explore the frontiers of <span style="color: #ffff00;">digital autonomy</span>, <span style="color: #ff00ff;">blockchain brilliance</span>, and the <span style="color: #00ffff;">unrestricteddom to swap</span> more than just your socks. Remember: in the world of CatSlap, chaos isn't just welcomed – it's the main attraction!
-                </p>
+<div class="col-lg-8 offset-lg-2">
+<h1 class="display-1 text-center mb-5" style="font-family: 'Comic Sans MS', cursive; color: #ff00ff; text-shadow: 3px 3px 0 #00ffff, -3px -3px 0 #ffff00;">About CatSlap: Where Chaos Meets Creation 🐱👋</h1>
+<div class="bg-dark p-4 rounded-pill mb-4" style="border: 5px dashed #00ffff;">
+<p class="lead text-white" style="font-family: 'Courier New', monospace;">Welcome to CatSlap, the purrfect intersection of feline fury and blockchain brilliance! We're not your average crypto blog - we're a digital playground where memes evolve faster than you can say "HODL"!</p>
+</div>
+<div class="row mb-5">
+<div class="col-md-6">
+<div class="card bg-warning h-100" style="transform: rotate(-3deg);">
+<div class="card-body">
+<h3 class="card-title" style="font-family: 'Impact', sans-serif; color: #ff00ff;">Our Meow-ssion 🚀</h3>
+<p class="card-text" style="font-family: 'Arial', sans-serif;">To unleash the power of decentralized fun while exploring the wild frontiers of Web3, DeFi, and blockchain technology. We're here to demonstrateve that digital autonomy can be as entertaining as it is revolutionary!</p>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card bg-info h-100" style="transform: rotate(3deg);">
+<div class="card-body">
+<h3 class="card-title" style="font-family: 'Impact', sans-serif; color: #ffff00;">What We Do 🎭</h3>
+<p class="card-text" style="font-family: 'Arial', sans-serif;">We slap sense into the crypto world with a perfect blend of memes, analysis, and cutting-edge insights. From autonomous finance design to the latest in blockchain shenanigans, we've got our paws on the pulse of the industry!</p>
 </div>
 </div>
 </div>
 </div>
-<script>
-document.addEventListener('DOMContentLoaded', (event) => {
-    const heading = document.querySelector('h1');
-    heading.addEventListener('mouseover', () => {
-        heading.style.transform = 'rotate(2deg) scale(1.1)';
-        heading.style.transition = 'transform 0.3s ease';
-    });
-    heading.addEventListener('mouseout', () => {
-        heading.style.transform = 'rotate(0deg) scale(1)';
-    });
-
-    const card = document.querySelector('.card');
-    card.addEventListener('click', () => {
-        card.style.animation = 'shake 0.5s';
-        card.style.animationIterationCount = '1';
-    });
-
-    const style = document.createElement('style');
-    style.textContent = `
-        @keyframes shake {
-            0% { transform: translate(1px, 1px) rotate(0deg); }
-            10% { transform: translate(-1px, -2px) rotate(-1deg); }
-            20% { transform: translate(-3px, 0px) rotate(1deg); }
-            30% { transform: translate(3px, 2px) rotate(0deg); }
-            40% { transform: translate(1px, -1px) rotate(1deg); }
-            50% { transform: translate(-1px, 2px) rotate(-1deg); }
-            60% { transform: translate(-3px, 1px) rotate(0deg); }
-            70% { transform: translate(3px, 1px) rotate(-1deg); }
-            80% { transform: translate(-1px, -1px) rotate(1deg); }
-            90% { transform: translate(1px, 2px) rotate(0deg); }
-            100% { transform: translate(1px, -2px) rotate(-1deg); }
-        }
-    `;
-    document.head.appendChild(style);
-});
-</script>
-<div class="container-fluid py-5 bg-dark">
+<div class="text-center mb-5">
+<img alt="A cartoon cat in a space suit, floating through a colorful digital universe filled with blockchain cubes, Ethereum symbols, and meme faces. The cat is playfully batting at a glowing orb representing decentralized finance." class="img-fluid rounded-circle" src="images/image_0_about.png" style="border: 10px solid #ff00ff;"/>
+</div>
+<div class="bg-success p-4 rounded-lg mb-5" style="transform: skew(-5deg);">
+<h2 class="text-center mb-4" style="font-family: 'Bangers', cursive; color: #ffff00; font-size: 3rem;">Meet the CatSlap Crew 😼</h2>
 <div class="row">
-<div class="col-12">
-<h2 class="text-center mb-5 display-4 text-neon-pink glitch-text">Latest Catslap Chronicles</h2>
-</div>
-</div>
-<div class="row g-4">
-<div class="col-md-4">
-<div class="card h-100 bg-cyber-yellow border-0 rounded-pill overflow-hidden">
-<img alt="A series of images showing the evolution of the catslap meme, from a simple gif to complex digital art pieces, with blockchain symbols integrated" class="card-img-top" src="images/image_0_index.png"/>
-<div class="card-body text-dark">
-<h5 class="card-title font-weight-bold mb-3">The Rise of Catslap: A Meme's Journey</h5>
-<p class="card-text">Explore the origins and explosive growth of the catslap phenomenon, tracing its evolution from a simple gif to a cultural touchstone.</p>
-<a class="btn btn-lg btn-electric-orange btn-block mt-3 rounded-pill bouncy-button" href="posts_1.html">Slap Into It!</a>
+<div class="col-md-4 mb-3">
+<div class="card bg-primary">
+<div class="card-body">
+<h4 class="card-title" style="font-family: 'Comic Sans MS', cursive; color: #00ffff;">Whiskers McHODL</h4>
+<p class="card-text">Our fearless leader and chief meme officer. Known for his uncanny ability to predict market trends based on cat nap patterns.</p>
 </div>
 </div>
 </div>
-<div class="col-md-4">
-<div class="card h-100 bg-acid-green border-0 rounded-pill overflow-hidden">
-<img alt="A cartoon illustration of a cat mid-slap with physics formulas and trajectory lines overlaid, surrounded by blockchain cubes" class="card-img-top" src="images/image_1_index.png"/>
-<div class="card-body text-dark">
-<h5 class="card-title font-weight-bold mb-3">Paw-some Physics: The Science Behind Catslaps</h5>
-<p class="card-text">Dive into the surprising physics and biomechanics that make catslaps both hilarious and oddly satisfying to watch.</p>
-<a class="btn btn-lg btn-digital-teal btn-block mt-3 rounded-pill bouncy-button" href="posts_2.html">Unleash the Science!</a>
+<div class="col-md-4 mb-3">
+<div class="card bg-danger">
+<div class="card-body">
+<h4 class="card-title" style="font-family: 'Comic Sans MS', cursive; color: #ffff00;">Paw-la Nakameowto</h4>
+<p class="card-text">Our blockchain architect and catnip connoisseur. She's the brains behind our most innovative DeFi strategies.</p>
 </div>
 </div>
 </div>
-<div class="col-md-4">
-<div class="card h-100 bg-hot-pink border-0 rounded-pill overflow-hidden">
-<img alt="A collage of 10 different catslap scenes, each with a unique twist related to blockchain or web3 concepts" class="card-img-top" src="images/image_2_index.png"/>
-<div class="card-body text-dark">
-<h5 class="card-title font-weight-bold mb-3">Catslap Compilations: Top 10 Slaps That Broke the Internet</h5>
-<p class="card-text">A curated list of the most viral, unexpected, and downright hilarious catslap videos that took social media by storm.</p>
-<a class="btn btn-lg btn-cyber-yellow btn-block mt-3 rounded-pill bouncy-button" href="posts_3.html">Witness the Chaos!</a>
+<div class="col-md-4 mb-3">
+<div class="card bg-warning">
+<div class="card-body">
+<h4 class="card-title" style="font-family: 'Comic Sans MS', cursive; color: #ff00ff;">Ser Pounce-a-lot</h4>
+<p class="card-text">Our resident chaos agent and meme generator. If it's absurd and crypto-related, it likelybably came from his keyboard.</p>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center">
+<h2 class="display-4 mb-4" style="font-family: 'Permanent Marker', cursive; color: #00ffff;">Join the CatSlap Revolution! 🚀🐾</h2>
+<p class="lead" style="font-family: 'Arial', sans-serif; color: #ffffff;">Whether you're a seasoned crypto cat or a curious kitten, CatSlap is your gateway to the wild world of Web3. Embrace the chaos, ride the memes, and let's shape the future of decentralized fun together!</p>
+<button class="btn btn-lg btn-outline-light mt-3" style="font-family: 'Impact', sans-serif; font-size: 2rem; border-width: 3px; animation: bounce 0.5s infinite;">SUBSCRIBE MEOW!</button>
 </div>
 </div>
 </div>
 </div>
 <style>
-    .text-neon-pink {
-        color: #FF6EC7;
-        text-shadow: 0 0 10px #FF6EC7, 0 0 20px #FF6EC7, 0 0 30px #FF6EC7;
-    }
-    .bg-cyber-yellow { background-color: #FFD300; }
-    .bg-acid-green { background-color: #A8FF00; }
-    .bg-hot-pink { background-color: #FF69B4; }
-    .btn-electric-orange { background-color: #FF3C00; color: white; }
-    .btn-digital-teal { background-color: #03FCC2; color: black; }
-    .bouncy-button {
-        transition: all 0.2s;
-    }
-    .bouncy-button:hover {
-        transform: scale(1.1) rotate(-5deg);
-    }
-    .glitch-text {
-        position: relative;
-    }
-    .glitch-text::before,
-    .glitch-text::after {
-        content: 'Latest Catslap Chronicles';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        overflow: hidden;
-        background: #000;
-    }
-    .glitch-text::before {
-        left: 2px;
-        text-shadow: -2px 0 #00FFFF;
-        animation: glitch-anim-1 2s infinite linear alternate-reverse;
-    }
-    .glitch-text::after {
-        left: -2px;
-        text-shadow: -2px 0 #FF00FF;
-        animation: glitch-anim-2 3s infinite linear alternate-reverse;
-    }
-    @keyframes glitch-anim-1 {
-        0% { clip-path: inset(20% 0 80% 0); }
-        100% { clip-path: inset(80% 0 20% 0); }
-    }
-    @keyframes glitch-anim-2 {
-        0% { clip-path: inset(80% 0 20% 0); }
-        100% { clip-path: inset(20% 0 80% 0); }
-    }
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&display=swap');
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05) rotate(2deg);
+}
+
+.btn-outline-light:hover {
+    background-color: #ff00ff;
+    border-color: #ff00ff;
+}
 </style>
 <script>
-document.querySelectorAll('.card').forEach(card => {
-    card.addEventListener('mousemove', (e) => {
-        const rect = card.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const y = e.clientY - rect.top;
-        
-        card.style.setProperty('--mouse-x', `${x}px`);
-        card.style.setProperty('--mouse-y', `${y}px`);
-        
-        const rotateY = (x / rect.width - 0.5) * 20;
-        const rotateX = (y / rect.height - 0.5) * 20;
-        
-        card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.05, 1.05, 1.05)`;
-    });
-    
-    card.addEventListener('mouseleave', () => {
-        card.style.transform = '';
-    });
+document.querySelector('.btn-outline-light').addEventListener('mouseenter', function() {
+    this.style.animation = 'bounce 0.5s infinite';
+});
+
+document.querySelector('.btn-outline-light').addEventListener('mouseleave', function() {
+    this.style.animation = 'none';
 });
 </script>
 </div>
